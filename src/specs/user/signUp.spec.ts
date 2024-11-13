@@ -59,6 +59,7 @@ describe('USER SIGNUP', () => {
             expect(res.body.message).toBe("E11000 duplicate key error collection: test.users index: email_1 dup key: { email: \"testkate11@gmail.com\" }")
 
         })
+        
     })
     })
 
